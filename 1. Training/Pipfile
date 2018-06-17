@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+tinydb = "*"
+python-decouple = "*"
+praw = "*"
+keras = "*"
+tensorflow = "*"
+pandas = "*"
+tinyrecord = "*"
+matplotlib = "*"
+scikit-learn = "*"
+imutils = "*"
+opencv-python = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
