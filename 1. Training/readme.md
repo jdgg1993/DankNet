@@ -10,4 +10,12 @@
 6. Copy the images from the dataset downloaded previously to the folder `dank`.
 7. From `1. Training`, run `python split.py`. This will create a 20% split in our dataset and populate the `not_dank` folder with images.
     - NOTE: This is probably the wrong approach to take. The `not_dank` folder should be populated with memes widely considered to be `not dank`. However, for demonstration purposes, lets just go with a random split. After all, a meme's "dankness" is subjective anyway. What's to say one meme is more dank over another? It's not like an image of a car. 
-8. Double check both folders inside data contain images. If so, you're ready to start. 
+8. Double check both folders inside data contain images. If so, you're ready to start.
+
+### Train
+
+1. Once you have your environment and dataset setup, ready to go, run the following command to kick off the training process `python train.py --dataset data --model dank_not_dank.model`.
+
+### Test
+
+1. `python test.py --model dank_not_dank.model --image [PATH TO YOUR IMAGE]`
