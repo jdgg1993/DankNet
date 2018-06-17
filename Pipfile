@@ -4,7 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-tinydb = "*"
 python-decouple = "*"
 praw = "*"
 keras = "*"
@@ -15,6 +14,8 @@ matplotlib = "*"
 scikit-learn = "*"
 imutils = "*"
 opencv-python = "*"
+pillow = "*"
+requests = "*"
 
 [dev-packages]
 
